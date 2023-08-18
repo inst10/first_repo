@@ -2,6 +2,7 @@
 title: "first_doc"
 format: html
 editor: visual
+bibliography: my_bib.bib
 ---
 
 ## Quarto
@@ -26,6 +27,7 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+@Rcode2023
 
 ```{r}
 #| echo: fenced
@@ -35,4 +37,4 @@ The `echo: false` option disables the printing of code (only output is displayed
 plot(cars)
 ```
 
-Mitt første plot er vist i
+Mitt første plot er vist i @fig-firstplot.
